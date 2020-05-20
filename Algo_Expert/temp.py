@@ -41,3 +41,4 @@ def combinationSum(candidates, target) :
 
 array=[7,6,4,-1,1,2]
 combinationSum(array,16)
+combinationSum(array,7)
