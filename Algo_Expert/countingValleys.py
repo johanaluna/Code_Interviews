@@ -17,6 +17,7 @@ n: the number of steps Gary takes s: a string describing his path Sample Input 8
 
 Sample Output 1
 
+
 """
 #!/bin/python3
 
