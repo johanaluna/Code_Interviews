@@ -14,8 +14,6 @@ class Solution:
             return root
 
 
-
-
 def printTree(root):
         if(root != None):
             _printTree(root)
@@ -33,4 +31,3 @@ for node in inputs:
     root = TreeNode(root, node)
 
 root.printTree()
-
