@@ -13,16 +13,15 @@ class Solution:
             root.right = self.invertTree(pivot)
             return root
 
-
-def printTree(root):
+    def printTree(self,root):
         if(root != None):
-            _printTree(root)
+            self._printTree(root)
 
-def _printTree(node):
+    def _printTree(self,node):
         if(node != None):
-            _printTree(node.left)
+            self._printTree(node.left)
             print(str(node.val) + ' ')
-            _printTree(node.right)
+            self._printTree(node.right)
 
 
 inputs = [4,2,7,1,3,6,9]
@@ -30,4 +29,4 @@ root = None
 for node in inputs:
     root = TreeNode(root, node)
 
-root.printTree()
+Solution.printTree(root)
