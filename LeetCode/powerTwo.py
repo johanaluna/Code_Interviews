@@ -8,4 +8,4 @@ def isPowerOfTwo(n):
               
     return True
 
-print(isPowerOfTwo(16))ls
+print(isPowerOfTwo(16))
