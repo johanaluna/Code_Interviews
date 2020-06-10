@@ -14,10 +14,10 @@ class Solution:
             rad = random.randint(1,self.suma)
             for j in range(len(self.sumAdded)):
                 if rad <= self.sumAdded[j] :
-                    sln.append(j)
+                    index = j
             
             i += 1
-        return sln
+        return j
 
       
 
