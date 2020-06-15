@@ -41,10 +41,6 @@ class LinkedList:
             if currentNode.next == None:
                 print("Error: not in list")
 
-
-
-        
-
     def printList(self):
         currentNode = self.head
         completeList = []
