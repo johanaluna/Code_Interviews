@@ -113,6 +113,5 @@ print(dll.printlist())
 dll.insertBefore(4, Node(1))
 print(dll.printlist())
 print("At position ")
-
 dll.insertAtPosition(6, Node(6))
 print(dll.printlist())
