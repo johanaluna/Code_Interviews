@@ -14,7 +14,7 @@ def pairAnagram(lista):
     for x in d.values():
         if len(x)>1:
             for c in combinations(x,2):
-                counterPairs+=1
+                counterPairs += 1
     return counterPairs
 
 if __name__ == "__main__":
