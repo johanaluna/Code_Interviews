@@ -29,15 +29,12 @@ def findSubarrays2(array, k):
     #go through all values
     while i < len(array):
         if array[i]<k:
-            print("init", init)
-            print("array[i]: ",array[i])
             counter +=1
-            print("c",counter)
             if i > init and sum(array[init:i+1])<k:
                 print("array[init:i+1]",array[init:i+1], sum(array[init:i+1]))
                 counter += 1
                 print("c",counter)
-            if sum(array[init:i+1])>k:
+            elif sum(array[init:i+1])>k:
                 init = i-1
         else:
             init = i+1
@@ -46,6 +43,7 @@ def findSubarrays2(array, k):
 
 if __name__ == "__main__":
     array = [2,5,6,7,1]
+    array = [5,2,6,7,1]
     # array = [1, 11, 2, 3, 15]
     k = 10
     print(findSubarrays2(array, k))
