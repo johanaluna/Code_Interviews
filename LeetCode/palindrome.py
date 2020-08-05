@@ -23,10 +23,14 @@ def isPalindrome(s):
     if sln == sln[::-1]:
         return True
     return False
+   
+  
 
 if __name__ == "__main__":
     s = "A man, a plan, a canal: Panama"
     s2 = "race a car"
+    s3 = "ama"
     print(isPalindrome(s))
     print(isPalindrome(s2))
+    # print(isPalindrome2(s3))
         
